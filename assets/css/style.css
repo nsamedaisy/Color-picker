@@ -1,0 +1,32 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30%;
+}
+
+.pickers {
+	text-align: center;
+}
+
+.pickers [type="text"] {
+	padding-top: 8px;
+	border-radius: 3px;
+	box-shadow: 6px 8px 5px #858282;
+	border: none;
+	font-size: 18px;
+}
+
+.pickers [type="color"] {
+	border: none;
+	box-shadow: 6px 8px 5px #6b6868;
+	height: 35px;
+	width: 70px;
+	border-radius: 4px;
+}
